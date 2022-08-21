@@ -1,0 +1,21 @@
+{
+    "name": "typescript-boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "css-loader": "^0.28",
+        "file-loader": "^0.11",
+        "html-loader": "^0.4",
+        "html-webpack-plugin": "^2.28",
+        "style-loader": "^0.18",
+        "ts-loader": "^2.2",
+        "typescript": "^2.3",
+        "webpack": "^3.0",
+        "webpack-dev-server": "^2.5"
+    },
+    "scripts": {
+        "dev": "webpack-dev-server --host 127.0.0.1 --config \"./build/webpack.config.dev.js\" --watch --progress --hot --inline",
+        "build": "webpack --config \"./build/webpack.config.dev.js\""
+    }
+}
